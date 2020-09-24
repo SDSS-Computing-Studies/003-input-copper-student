@@ -23,7 +23,7 @@
     {
       "name": "Test 2a",
       "setup": "",
-      "run": "python3 test2.py",
+      "run": "python3 task2.py",
       "input": "3",
       "output": "113.097",
       "comparison": "included",
