@@ -5,8 +5,8 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "Joe Lunchbox\r\njoe@koolsandwiches.org",
-      "output": "Your name is Joe Lunchbox\\n, and your email is joe@koolsandwiches.org.",
-      "comparison": "included",
+      "output": "Your name is Joe Lunchbox\\s, and your email is joe@koolsandwiches.org\\.",
+      "comparison": "regex",
       "timeout": 2,
       "points": 1
     },
@@ -15,8 +15,8 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "Mr Yang\r\ncyang@deltalearns.ca",
-      "output": ".+Your name is Mr Yang\r\n, and your email is cyang@deltalearns.ca.",
-      "comparison": "included",
+      "output": "Your name is Mr Yang\\s, and your email is cyang@deltalearns\\.ca",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
