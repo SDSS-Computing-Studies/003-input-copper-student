@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test 1a",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "Joe Lunchbox\r\njoe@koolsandwiches.org",
+      "output": "Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test 1b",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "Mr Yang\r\ncyang@deltalearns.ca",
+      "output": "Your name is Mr Yang, and your email is cyang@deltalearns.ca.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2a",
+      "setup": "",
+      "run": "python3 test2.py",
+      "input": "3",
+      "output": "113.097",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2b",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "5.1",
+      "output": "555.647209",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
