@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "Joe Lunchbox\r\njoe@koolsandwiches.org",
-      "output": "Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.",
+      "output": ".+Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.",
       "comparison": "included",
       "timeout": 2,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "Mr Yang\r\ncyang@deltalearns.ca",
-      "output": "Your name is Mr Yang, and your email is cyang@deltalearns.ca.",
+      "output": ".+Your name is Mr Yang, and your email is cyang@deltalearns.ca.",
       "comparison": "included",
       "timeout": 1,
       "points": 1
