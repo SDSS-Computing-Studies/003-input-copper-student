@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "Joe Lunchbox\r\njoe@koolsandwiches.org",
-      "output": "Your name is Joe Lunchbox\r\n, and your email is joe@koolsandwiches.org.",
+      "output": "Your name is Joe Lunchbox\\n, and your email is joe@koolsandwiches.org.",
       "comparison": "included",
       "timeout": 2,
       "points": 1
