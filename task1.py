@@ -9,3 +9,6 @@
 # Sample output:
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 
+
+name = input("Please enter your name:")
+print("Your name is " + name + ", and your email is " + name + ".")
