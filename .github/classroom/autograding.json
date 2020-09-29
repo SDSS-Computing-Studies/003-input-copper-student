@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1a",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "Joe Lunchbox\r\njoe@koolsandwiches.org",
+      "output": ".*Your name is Joe Lunchbox\\s, and your email is joe@koolsandwiches.org\\.",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test 1b",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "Mr Yang\r\ncyang@deltalearns.ca",
+      "output": ".*Your name is Mr Yang\\s, and your email is cyang@deltalearns\\.ca",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2a",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "3",
+      "output": "113.097",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2b",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "5.1",
+      "output": "555.647209",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3a",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "5\r\n1\r\n11\r\n",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3b",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "2\r\n-1\r\n4",
+      "output": "2.5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4a",
+      "setup": "",
+      "run": "python3 task4.py",
+      "input": "4\r\n8\r\n",
+      "output": "8.944",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4b",
+      "setup": "",
+      "run": "python3 task4.py",
+      "input": "5\r\n8",
+      "output": "9.43398",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5a",
+      "setup": "",
+      "run": "python3 task5.py",
+      "input": "19",
+      "output": "1.6553",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5b",
+      "setup": "",
+      "run": "python3 task5.py",
+      "input": "20.22",
+      "output": "1.6900",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
